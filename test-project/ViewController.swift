@@ -13,11 +13,11 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
-		changeBackgroundColor(color: .blue)
+		changeBackgroundColor(color: .yellow)
 	}
 	
 	func changeBackgroundColor(color: UIColor) {
-		view.backgroundColor = .blue
+		view.backgroundColor = color
 	}
 
 	func printSomething() {
