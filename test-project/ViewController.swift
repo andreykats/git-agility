@@ -24,5 +24,13 @@ class ViewController: UIViewController {
 		print("on the feature branch")
 		var one = "not one"
 	}
+	
+	func newFeature() {
+		print("this does something")
+		printSomething()
+		var one = 1
+		var two = 2
+		var three = 3
+	}
 }
 
