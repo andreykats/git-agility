@@ -21,7 +21,7 @@ class ViewController: UIViewController {
 	}
 
 	func printSomething() {
-		print("something")
+		print("something to print")
 	}
 }
 
