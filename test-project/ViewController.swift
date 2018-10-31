@@ -20,6 +20,8 @@ class ViewController: UIViewController {
 		view.backgroundColor = .blue
 	}
 
-
+	func printSomething() {
+		print("something to print")
+	}
 }
 
