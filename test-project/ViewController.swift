@@ -21,7 +21,15 @@ class ViewController: UIViewController {
 	}
 
 	func printSomething() {
-		print("something")
+		print("on the develop branch")
+	}
+	
+	func newFeature() {
+		print("this does something")
+		printSomething()
+		var one = 1
+		var two = 2
+		var three = 3
 	}
 }
 
