@@ -17,7 +17,7 @@ class ViewController: UIViewController {
 	}
 	
 	func changeBackgroundColor(color: UIColor) {
-		view.backgroundColor = color
+		view.backgroundColor = .blue
 	}
 
 
